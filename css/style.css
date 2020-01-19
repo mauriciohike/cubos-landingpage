@@ -12,10 +12,35 @@
   outline: none;
   text-decoration: none;
 }
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 body{
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 100%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   color: var(--dark-color)
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.row-2{
+  width: 49%
+}
+.row-3{
+  width: 32.6%;
+}
+
+/* Navbar */
+.nav__logo{
+  max-width: 200px;
 }
