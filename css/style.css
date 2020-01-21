@@ -49,45 +49,53 @@ body{
 }
 
 /* Hero */
-.hero{
+.wave-container {
   position: relative;
-  background: linear-gradient(
-    to bottom right, 
-    rgba(0, 0, 0, 0.55),
-    rgba(0, 0, 0, 0.75)),
-    url('../assets/img/hero.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-.hero__title{
-  color: var(--complementary-color);
-  font-size: 62px;
-  font-weight: 400;
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
-  max-width: 900px;
-  margin-top: 128px;
-}
-.hero__cta{
-  display: block;
-  width: 220px;
-  margin-top: 32px;
-  background: var(--main-color);
-  padding: 16px 32px;
-  border-radius: 23px;
+  color: #FFF;
   text-align: center;
-  font-weight: bold;
-  color: var(--complementary-color);
-  font-size: 18px;
+  overflow: hidden;
 }
-.hero__cta:hover{
-  background: var(--complementary-color);
-  color: var(--dark-color);
+.hero-text{
+  background: #621C97;
+  color: #ffffff;
+}
+.wave-container > svg {
+  display: block;
+  transform-origin: right;
+  animation: animateWave 5000ms linear infinite;
+  animation-direction: alternate;
+}
+h1 {
+  font-size: 5rem;
+  padding: 7rem 1.25rem 2.5rem 1.25rem;
+}
+p {
+  font-size: 1.5rem;
+  padding: 0 1.25rem 5rem 1.25rem;
+}
+.cube-principal{
+  fill: none;
+  width: 100%;
+  display: block;
+  max-width: 300px;
+}
+.cube-principal path{
+  stroke: #ffffff;
+  stroke-dasharray: 550;
+  stroke-dashoffset: 550;
+  animation: draw 6s linear forwards;
+  stroke-width: 5;
+  width: 400px;
+  height: 100% !important;
+}
+
+@keyframes draw{
+  to{
+    stroke-dashoffset: 0;
+  }
 }
 /* Navbar */
-nav{
-  background: rgba(233, 231, 242, 0.7);
-} 
+
 .nav__logo{
   max-width: 145px;
 }
