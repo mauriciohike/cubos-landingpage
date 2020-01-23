@@ -67,6 +67,7 @@ body{
   font-size: 56px;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   line-height: 100%;
+  margin-top: 82px;
 }
 .hero__copy{
   margin-top: 21px;
@@ -113,20 +114,28 @@ body{
   top: 0;
   width: 100%;
   z-index: 2;
+  transition: all .3s ease-in;
 }
 .nav__container{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.nav__logo{
+  width: 200px;
+  height: auto;
+  padding: 5px 0;
+}
 .nav__container ul{
   display: flex;
 }
 .nav__container ul li{
-  padding: 10px 20px;
+  padding: 12px 24px;
   font-weight: bold;
   transition: all .3s ease-in;
   cursor: pointer;
+  border-radius: 8px;
+  margin: 0 2.5px;
 }
 .nav__container ul li:hover{
   background: var(--complementary-color);
