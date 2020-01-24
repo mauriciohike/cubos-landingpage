@@ -32,7 +32,7 @@ body{
 }
 .container{
   width: 95%;
-  max-width: 1140px;
+  max-width: 980px;
   margin: 0 auto;
 }
 .flex{
@@ -63,7 +63,7 @@ body{
   flex-direction: column;
 }
 .hero__title{
-  font-size: 56px;
+  font-size: 48px;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   line-height: 100%;
   margin-top: 82px;
@@ -93,10 +93,10 @@ body{
   justify-content: flex-end;
 }
 .hero__product img{
-  max-width: 360px;
+  max-width: 320px;
   position: absolute;
-  top: 70px;
-  right: 130px;
+  top: 100px;
+  right: 115px;
 }
 .wave-container {
   position: relative;
@@ -149,7 +149,7 @@ body{
   max-width: 400px;
 }
 .about__title{
-  font-size: 48px;
+  font-size: 42px;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   margin-bottom: 50px;
 }
