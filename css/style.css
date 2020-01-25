@@ -171,3 +171,17 @@ body{
 }
 
 /* History */
+
+.history__picture, .history__text{
+  width: 50%;
+}
+.history__picture{
+  height: 400px;
+}
+.history__picture img{
+  object-fit: cover;
+  height: 100%;
+}
+.history__text{
+  background: var(--main-color);
+}
