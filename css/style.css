@@ -46,6 +46,10 @@ body{
   border-radius: 23px;
   transition: all .3s ease-in;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  font-family: inherit;
+  cursor: pointer;
+  border: 0;
+  font-size: 16px;
 }
 .principal__button-primary:hover{
   background: #ff6666;
@@ -61,6 +65,10 @@ body{
   border-radius: 23px;
   transition: all .3s ease-in;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
 }
 .principal__button-secondary:hover{
   background: #541881;
@@ -264,4 +272,55 @@ body{
 .break svg{
   margin: 0 auto;
   display: block;
+}
+
+/* Lead  */
+
+.lead__title{
+  font-size: 42px;
+  text-align: center;
+  padding: 40px 0 60px 0;
+}
+.lead__title::after{
+  display: block;
+  width: 150px;
+  background: var(--complementary-color);
+  height: 8px;
+  border-radius: 4px;
+  content: '';
+  margin: 10px auto;
+}
+.lead__form{
+  padding: 40px 0;
+  background: var(--main-color);
+  color: var(--light-color);
+}
+.form__title{
+  font-size: 28px;
+}
+.form__group{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.input__wrapper{
+  width: 100%;
+  margin-right: 15px;
+  flex: 1;
+}
+.input__wrapper input{
+  background: transparent;
+  border: 2px solid var(--light-color);
+  padding: 12px 8px;
+  border-radius: 8px;
+  width: 100%;
+  color: var(--light-color);
+  font-size: 16px;
+}
+.input__wrapper input::placeholder{
+  color: rgba(233, 231, 242, 0.712);
+}
+.lead__submit{
+  max-width: 180px;
+  flex: 1;
 }
