@@ -255,3 +255,13 @@ body{
 .method__cta{
   margin-top: 30px;
 }
+
+/* Break */
+
+.break{
+  padding: 20px 0;
+}
+.break svg{
+  margin: 0 auto;
+  display: block;
+}
