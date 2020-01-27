@@ -203,7 +203,7 @@ body{
   width: 50%;
 }
 .history__picture{
-  height: 370px;
+  height: 400px;
 }
 .history__picture img{
   object-fit: cover;
@@ -231,7 +231,7 @@ body{
   max-width: 460px;
 }
 .history__copy{
-  margin-top: 10px;
+  margin: 20px 0;
 }
 
 /* Method  */
