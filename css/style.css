@@ -35,6 +35,36 @@ body{
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   color: var(--dark-color);
 }
+.principal__button-primary{
+  background: var(--complementary-color);
+  width: 180px;
+  padding: 15px 30px;
+  display: block;
+  color: var(--light-color);
+  font-weight: bold;
+  text-align: center;
+  border-radius: 23px;
+  transition: all .3s ease-in;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.principal__button-primary:hover{
+  background: #ff6666;
+}
+.principal__button-secondary{
+  background: var(--main-color);
+  width: 180px;
+  padding: 15px 30px;
+  display: block;
+  color: var(--light-color);
+  font-weight: bold;
+  text-align: center;
+  border-radius: 23px;
+  transition: all .3s ease-in;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.principal__button-secondary:hover{
+  background: #541881;
+}
 .transitioned{
   transition: all .3s linear;
 }
@@ -79,20 +109,7 @@ body{
   margin-top: 21px;
 }
 .hero__cta{
-  background: var(--complementary-color);
-  width: 180px;
-  padding: 15px 30px;
-  display: block;
   margin-top: 21px;
-  color: var(--light-color);
-  font-weight: bold;
-  text-align: center;
-  border-radius: 23px;
-  transition: all .3s ease-in;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
-}
-.hero__cta:hover{
-  background: #ff6666;
 }
 .hero__product{
   position: relative;
@@ -151,7 +168,7 @@ body{
 
 /* About */
 .about{
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 .about__picture{
   max-width: 400px;
@@ -180,13 +197,13 @@ body{
 /* History */
 
 .history{
-  margin-top: 40px
+  margin: 40px 0;
 }
 .history__picture, .history__text{
   width: 50%;
 }
 .history__picture{
-  height: 320px;
+  height: 400px;
 }
 .history__picture img{
   object-fit: cover;
@@ -211,8 +228,30 @@ body{
 }
 .history__copies{
   margin-top: 30px;
-  max-width: 460px;
+  max-width: 450px;
 }
 .history__copy{
-  margin-top: 10px;
+  margin: 20px 0;
+}
+
+/* Method  */
+
+.method{
+  padding: 80px 0;
+}
+.method__item{
+  display: flex;
+  margin: 15px 0;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+.item__number{
+  margin-right: 5px;
+}
+.item__number{
+  color: var(--complementary-color);
+}
+.method__cta{
+  margin-top: 30px;
 }
