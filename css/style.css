@@ -324,3 +324,33 @@ body{
   max-width: 180px;
   flex: 1;
 }
+
+/* Footer  */
+
+footer{
+  padding: 20px 0;
+  background: #320E4E;
+  color: var(--light-color);
+}
+footer > .container{
+  align-items: center;
+}
+.footer__logo{
+  width: 100%;
+}
+.footer__copy a{
+  font-weight: 700;
+  color: var(--complementary-color);
+  transition: all .3s ease-in;
+  text-decoration: none;
+}
+.footer__copy a:hover{
+  text-decoration: underline;
+}
+.footer__logo img{
+  width: 200px;
+  height: auto;
+  padding: 5px 0;
+  margin-right: 0;
+  margin-left: auto;
+}
