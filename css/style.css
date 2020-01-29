@@ -141,6 +141,22 @@ body{
   display: block;
 }
 
+@media (max-width: 992px){
+  .hero__product{
+    display: none;
+  }
+  .hero__text{
+    padding: 40px 0;
+  }
+  .row-2{
+    width: 100%;
+  }
+  .hero__title{
+    font-size: 42px;
+    margin-top: 52px;
+  }
+}
+
 /* Navbar */
 .hero__menu{
   position: absolute;
@@ -252,6 +268,34 @@ body{
   margin-top: 30px;
 }
 
+@media (max-width: 992px){
+  .flex{
+    flex-direction: column;
+  }
+  .row-2{
+    margin: 20px auto;
+  }
+  .about__title{
+    text-align: center;
+    font-size: 38px;
+  }
+  .about__title::after{
+    margin: 5px auto 0 auto;
+  }
+  .about__cta{
+    margin: 40px auto 20px auto;
+  }
+  .about__picture{
+    max-width: 300px;
+  }
+  .about__copy{
+    max-width: 100%;
+  }
+  .about{
+    padding-bottom: 20px;
+  }
+}
+
 /* History */
 
 .history{
@@ -292,6 +336,35 @@ body{
   margin: 20px 0;
 }
 
+@media (max-width: 992px){
+  .history__picture, .history__text{
+    width: 100%;
+  }
+  .history__container{
+    flex-direction: column-reverse;
+  }
+  .history__title{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 40px;
+  }
+  .history__title::after{
+    margin: 5px auto 0 auto;
+  }
+  .history__text{
+    padding: 40px 10px;
+  }
+  .history__picture{
+    height: 250px;
+  }
+  .history__copies{
+    max-width: 100%;
+  }
+  .history{
+    margin: 40px 0 20px 0;
+  }
+}
+
 /* Method  */
 
 .method{
@@ -312,6 +385,24 @@ body{
 }
 .method__cta{
   margin-top: 30px;
+}
+
+@media (max-width: 992px){
+  .method{
+    padding: 0 0 20px 0;
+  }
+  .method__cta{
+    margin: 40px auto 10px auto;
+  }
+  .method__item{
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 340px){
+  .method__item{
+    font-size: 20px;
+  }
 }
 
 /* Break */
@@ -375,6 +466,24 @@ body{
   flex: 1;
 }
 
+@media (max-width: 992px){
+  .lead__title{
+    font-size: 38px;
+  }
+  .form__group{
+    flex-direction: column;
+  }
+  .form__title{
+    text-align: center;
+  }
+  .input__wrapper{
+    margin: 5px 0;
+  }
+  .lead__submit{
+    margin-top: 10px;
+  }
+}
+
 /* Footer  */
 
 footer{
@@ -403,4 +512,22 @@ footer > .container{
   padding: 5px 0;
   margin-right: 0;
   margin-left: auto;
+}
+@media (max-width: 992px){
+  .footer__logo img{
+    margin: 0 auto;
+  }
+  .footer__copy{
+    display: inline;
+  }
+  .footer__text{
+    text-align: center;
+  }
+  .footer__copy a{
+   display: block;
+   width: 100%;
+   text-align: center;
+   margin-top: 5px;
+   font-size: 21px;
+  }
 }
